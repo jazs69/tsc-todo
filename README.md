@@ -25,7 +25,7 @@ A **beautiful**, **responsive**, and **interactive** Todo List app built with:
 ## 📂 Folder Structure
 
 ```
-todo-ts-framer/
+tsc-todo/
 ├── public/
 ├── src/
 │   ├── components/
@@ -46,8 +46,8 @@ todo-ts-framer/
 **Clone the repo and install dependencies:**
 
 ```bash
-git clone https://github.com/yourusername/todo-ts-framer.git
-cd todo-ts-framer
+git clone https://github.com/yourusername/tsc-todo.git
+cd tsc-todo
 npm install
 ```
 
@@ -106,7 +106,7 @@ This project is open-source under the [MIT License](LICENSE).
 ---
 
 <div align="center">
-  Made with ❤️ by <b>Your Name</b>
+  Made with ❤️ by <b>Jayesh</b>
 </div>
 
 ---
