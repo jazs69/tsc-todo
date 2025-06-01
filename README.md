@@ -1,54 +1,122 @@
-# React + TypeScript + Vite
+# ✅ Todo List App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **beautiful**, **responsive**, and **interactive** Todo List app built with:
 
-Currently, two official plugins are available:
+- ⚛️ **React + TypeScript**
+- 🎨 **Tailwind CSS** for modern styling
+- 🎞️ **Framer Motion** for smooth animations
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/86122516/260271239-9613622c-e261-41f0-bce7-320bce2b6a36.gif" alt="Todo Demo" width="700"/>
+</div>
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🚀 Features
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+- ➕ **Add and remove todos** with ease
+- 🌈 **Smooth entry and exit animations**
+- 📱 **Fully responsive UI**
+- ⚡ **Super fast performance** using Vite
+- 🧠 **Written in strongly-typed TypeScript**
+
+---
+
+## 📂 Folder Structure
+
+```
+todo-ts-framer/
+├── public/
+├── src/
+│   ├── components/
+│   │   └── TodoApp.tsx
+│   ├── App.tsx
+│   ├── index.tsx
+│   └── main.css
+├── tailwind.config.js
+├── tsconfig.json
+├── vite.config.ts
+└── package.json
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🛠️ Installation & Setup
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+**Clone the repo and install dependencies:**
+
+```bash
+git clone https://github.com/yourusername/todo-ts-framer.git
+cd todo-ts-framer
+npm install
 ```
+
+**Start the dev server:**
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) in your browser 🚀
+
+---
+
+## 🧪 Tech Stack
+
+| Tech           | Usage                          |
+| -------------- | ----------------------------- |
+| React          | Frontend library               |
+| TypeScript     | Type-safe code                 |
+| Tailwind CSS   | Utility-first CSS framework    |
+| Framer Motion  | Declarative animations         |
+| Vite           | Fast build tool and dev server |
+
+---
+
+## ✨ Screenshots
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/86122516/260270976-6f493d9f-f847-4534-8755-5e2897c0a7d2.png" width="600"/>
+</div>
+
+---
+
+## 📦 Deployment
+
+To deploy your app:
+
+1. Push your code to GitHub.
+2. Connect your repo to [Vercel](https://vercel.com/) or [Netlify](https://netlify.com/).
+3. Deploy with one click!
+
+---
+
+## 🙌 Acknowledgements
+
+- [Framer Motion](https://www.framer.com/motion/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Vite](https://vitejs.dev/)
+
+---
+
+## 📄 License
+
+This project is open-source under the [MIT License](LICENSE).
+
+---
+
+<div align="center">
+  Made with ❤️ by <b>Your Name</b>
+</div>
+
+---
+
+## ✅ How to Use
+
+- Replace the image placeholders with real app screenshots or demo GIFs.
+- Add your GitHub username and deployment link.
+- Optionally, add badges (e.g., Vercel deployed, MIT License, etc.)
+
+<!--
+Would you like me to generate badges and add GitHub Actions CI setup for this project too?
+-->
